@@ -1,4 +1,7 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
+import Icon from "@ant-design/icons";
+
 import "./App.css";
 
 export default function navBar() {
@@ -20,6 +23,8 @@ export default function navBar() {
         <div className="butTop">
           <div className="btn">
             <button className="headerSingInBtn">singin</button>
+            {/* <MenuOutlined className="menuOut" /> */}
+            {/* <Icon /> */}
           </div>
         </div>
       </div>

@@ -4,13 +4,13 @@
 }
 
 .header {
-  padding: 10px 0px 10px 0px ;
+  padding: 10px 0px 10px 0px;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow:2px 2px 2px 2px gray;
-  height:5rem
+  box-shadow: 3px 0.5px 9px 2px gray;
+  height: 5rem;
 }
 .headerUlList {
   display: flex;
@@ -25,4 +25,13 @@
   height: 3rem;
   border-radius: 5px;
   font-size: 25px;
+}
+@media only screen and (max-width: 999px) {
+  .headerSingInBtn,
+  .headerUlList {
+    display: none;
+  }
+  .menuOut {
+    display: block;
+  }
 }
